@@ -1,0 +1,31 @@
+{
+    "name": "URL Shortener",
+    "version": "1.0.0",
+    "description": "URL Shortener",
+    "apidoc": {
+        "title": "URL",
+        "url": "http://localhost:4000"
+    },
+    "main": "app.js",
+    "scripts": {
+        "test": "node app.js"
+    },
+    "author": "anup",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.205.0",
+        "body-parser": "^1.17.2",
+        "bunyan": "^1.8.12",
+        "bunyan-debug-stream": "^1.0.8",
+        "cookies": "^0.7.1",
+        "express": "^4.16.3",
+        "express-jwt": "^5.3.1",
+        "http": "0.0.0",
+        "jsonwebtoken": "^7.4.3",
+        "jwt-simple": "^0.5.1",
+        "mongoose": "^5.2.9",
+        "path": "^0.12.7",
+        "shortid": "^2.2.13",
+        "valid-url": "^1.0.9"
+    }
+}
